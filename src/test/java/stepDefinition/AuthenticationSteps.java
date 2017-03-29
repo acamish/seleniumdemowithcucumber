@@ -1,4 +1,4 @@
-package stepdef;
+package stepDefinition;
 
 import base.BaseClass;
 import cucumber.api.java.en.Then;
@@ -12,7 +12,7 @@ import page.MyAccountPage;
  */
 public class AuthenticationSteps extends BaseClass {
     @When("^I open demo website$")
-    public void open_website() throws Throwable {
+    public void i_open_demo_website() throws Throwable {
         // Write code here that turns the phrase above into concrete actions
         initializeDriver();
         driver.get("http://automationpractice.com");
